@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Pengenalan Olahraga Panahan</string>
+    <string-array name="spinner_isi">
+        <item> Teknik Dasar</item>
+        <item>1. Stance</item>
+        <item>2. Nocking</item>
+        <item>3. Set-up</item>
+        <item>4. Drawing</item>
+        <item>5. Anchoring</item>
+        <item>6. Tighten</item>
+        <item>7. Aiming</item>
+        <item>8. Release</item>
+        <item>9. After-Hold</item>
+    </string-array>
+
+    <string-array name="spinner_lat">
+        <item>Archery Club</item>
+        <item>1. Jakarta Archery Club</item>
+        <item>2. DSR TMII Archery Club</item>
+        <item>3. Fath Archery</item>
+    </string-array>
+</resources>
+
+
+
+

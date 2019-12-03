@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:baselineAligned="true"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <TableLayout
+            android:layout_width="396dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            >
+
+            <TableRow
+                android:stretchColumns="0,1"
+                android:id="@+id/tableRow1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+               >
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:id="@+id/pengertian"
+                    android:layout_width="550px"
+                    android:layout_height="120px"
+                    android:layout_marginTop="20px"
+                    android:layout_marginBottom="10px"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pengertian"
+
+                    />
+
+
+            </TableRow>
+
+            <TableRow
+                android:stretchColumns="0,1"
+                android:id="@+id/tableRow2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+               >
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:id="@+id/sejarah"
+                    android:layout_width="550px"
+                    android:layout_height="120px"
+                    android:layout_marginTop="20px"
+                    android:layout_marginBottom="10px"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/sejarah" />
+
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+               >
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:id="@+id/prestasi"
+                    android:layout_width="550px"
+                    android:layout_height="120px"
+                    android:layout_marginTop="20px"
+                    android:layout_marginBottom="10px"
+                     android:adjustViewBounds="true"
+                    android:src="@drawable/prestasi" />
+
+
+
+            </TableRow>
+        </TableLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

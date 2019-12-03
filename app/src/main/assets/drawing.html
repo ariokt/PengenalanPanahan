@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Accordion - Collapse content</title>
+  <style>
+ h1 {
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    font-family: Times New Roman ;
+    font-size: 100%;
+     border: 1px solid black;
+     background-color: #992f2f;
+}
+
+body{
+     color: black;
+    padding: 10px;
+    margin: 10px;
+     border: 1px solid black;
+     background-color: #C0C0C0;
+}
+
+p{
+ font-family: Times New Roman ;
+ background-color: #FFFFFF
+}
+</style>
+
+  <link rel="stylesheet" href="js/jquery-ui.css">
+  <link rel="stylesheet" href="resources/demos/style.css">
+  <script src="js/jquery-1.12.4.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#accordion" ).accordion({
+      collapsible: true
+    });
+  } );
+  </script>
+</head>
+<body>
+
+<div>
+
+  <h1 style="bold">4. Drawing</h1>
+  <div>
+    <p> <img src="drawing.png"  width="100%" height="200" ></p>
+    <p align="left">Drawing atau menarik adalah gerakan menarik tali busur atau String menggunakan otot tricep sampai menyentuh bagian dagu, bibir, dan hidung seorang pemanah.</p>
+    </div>
+
+  <div id="accordion">
+    <h3 style="bold">Tahapan</h3>
+    <div>
+      <p align="left">Berikut merupakan langkah-langkah dalam melakukan Drawing : </p>
+      <p> 1.Pemanah berdiri dengan posisi kaki di antara shooting line.</p>
+      <p> 2.Pemanah berdiri rileks memegang busur dengan tangan kiri (pemegang busur).</p>
+      <p> 3.Pemanah mengangkat lengan pemegang busur setinggi bahu.</p>
+      <p> 4.Posisi tangan penarik tali berada lebih tinggi dari bahu pemegang busur.</p>
+      <p> 5.Tangan penarik tali siap untuk menarik tali atau string.</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

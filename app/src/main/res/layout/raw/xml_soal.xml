@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quiz>
+	<soal>
+		<pertanyaan>Fungsi alat berikut adalah </pertanyaan>
+		<jawabA>Menembakkan arrow</jawabA>
+		<jawabB>Melindungi lengan</jawabB>
+		<jawabC>Membuat stabil</jawabC>
+		<jawabD>Meletakkan arrow saat tidak digunakan</jawabD>
+		<jawabBenar>B</jawabBenar>
+		<gambar>armguard2</gambar>
+		<idsoal>S01</idsoal>
+	</soal>
+	
+		<soal>
+		<pertanyaan>Fungsi alat berikut adalah </pertanyaan>
+		<jawabA>Meletakkan arrow saat tidak digunakan</jawabA>
+		<jawabB>Membuat stabil</jawabB>
+		<jawabC>Melindungi dada</jawabC>
+		<jawabD>Melindungi lengan</jawabD>
+		<jawabBenar>A</jawabBenar>
+		<gambar>arrowrest2</gambar>
+		<idsoal>S02</idsoal>
+	</soal>
+	
+	<soal>
+		<pertanyaan>Fungsi alat berikut adalah </pertanyaan>
+		<jawabA>Melindungi dada</jawabA>
+		<jawabB>Melindungi lengan</jawabB>
+		<jawabC>Mengeker target</jawabC>
+		<jawabD>Tempat dipasangnya limb</jawabD>
+		<jawabBenar>C</jawabBenar>
+		<gambar>bowsight2</gambar>
+		<idsoal>S03</idsoal>
+	</soal>
+
+	<soal>
+		<pertanyaan>Fungsi dari arm guard adalah </pertanyaan>
+		<jawabA>Melindungi dada</jawabA>
+		<jawabB>Melindungi lengan</jawabB>
+		<jawabC>Mengeker target</jawabC>
+		<jawabD>Tempat dipasangnya limb</jawabD>
+		<jawabBenar>B</jawabBenar>
+		<idsoal>S04</idsoal>
+	</soal>
+
+	<soal>
+		<pertanyaan>Fungsi dari chest guard adalah </pertanyaan>
+		<jawabA>Melindungi dada</jawabA>
+		<jawabB>Melindungi lengan</jawabB>
+		<jawabC>Mengeker target</jawabC>
+		<jawabD>Tempat dipasangnya limb</jawabD>
+		<jawabBenar>A</jawabBenar>
+		<idsoal>S05</idsoal>
+	</soal>
+
+	<soal>
+		<pertanyaan>Fungsi dari Bow Sight adalah </pertanyaan>
+		<jawabA>Melindungi dada</jawabA>
+		<jawabB>Melindungi lengan</jawabB>
+		<jawabC>Mengeker target</jawabC>
+		<jawabD>Tempat dipasangnya limb</jawabD>
+		<jawabBenar>C</jawabBenar>
+		<idsoal>S06</idsoal>
+	</soal>
+
+	<soal>
+		<pertanyaan>Fungsi dari Stabilizer adalah </pertanyaan>
+		<jawabA>Melindungi dada</jawabA>
+		<jawabB>Membuat bow lebih seimbang</jawabB>
+		<jawabC>Mengeker target</jawabC>
+		<jawabD>Tempat dipasangnya limb</jawabD>
+		<jawabBenar>B</jawabBenar>
+		<idsoal>S07</idsoal>
+	</soal>
+
+	<soal>
+		<pertanyaan>Fungsi dari Puller adalah </pertanyaan>
+		<jawabA>Melindungi dada</jawabA>
+		<jawabB>Melindungi lengan</jawabB>
+		<jawabC>Alat bantu mencabut arrow</jawabC>
+		<jawabD>Tempat dipasangnya limb</jawabD>
+		<jawabBenar>C</jawabBenar>
+		<idsoal>S08</idsoal>
+	</soal>
+
+	<soal>
+		<pertanyaan>Fungsi dari Limb adalah </pertanyaan>
+		<jawabA>Melindungi dada</jawabA>
+		<jawabB>Melindungi lengan</jawabB>
+		<jawabC>Mengeker target</jawabC>
+		<jawabD>Memberikan daya lontar</jawabD>
+		<jawabBenar>C</jawabBenar>
+		<idsoal>S09</idsoal>
+	</soal>
+
+	<soal>
+		<pertanyaan>Fungsi dari Riser adalah </pertanyaan>
+		<jawabA>Pengangan pada busur</jawabA>
+		<jawabB>Melindungi lengan</jawabB>
+		<jawabC>Mengeker target</jawabC>
+		<jawabD>Tempat dipasangnya limb</jawabD>
+		<jawabBenar>A</jawabBenar>
+		<idsoal>S10</idsoal>
+	</soal>
+
+
+	
+</quiz>    

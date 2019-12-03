@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+   >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:baselineAligned="true"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <TableLayout
+            android:layout_width="396dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <TableRow
+                android:stretchColumns="0,1"
+                android:id="@+id/tableRow1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_margin="20dp">
+
+                <ImageView
+                    android:id="@+id/btnpendpanahan"
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:layout_marginLeft="120px"
+                    android:layout_gravity="start"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/menu1" />
+
+                <ImageView
+                    android:id="@+id/btntekdasar"
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/menu3" />
+            </TableRow>
+
+
+            <TableRow
+                android:stretchColumns="0,1"
+                android:id="@+id/tableRow2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp">
+
+                <ImageView
+                    android:id="@+id/btnperalatan"
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:layout_gravity="start"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="120px"
+                    android:src="@drawable/manu2" />
+
+                <ImageView
+                    android:id="@+id/btnquis"
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/menu4" />
+            </TableRow>
+
+            <TableRow
+                android:stretchColumns="0,1"
+                android:id="@+id/tableRow3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp">
+
+                <ImageView
+                    android:id="@+id/btnlatihan"
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:layout_gravity="start"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="120px"
+                    android:src="@drawable/menu5" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>
+
+

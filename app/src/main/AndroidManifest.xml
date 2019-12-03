@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ariowaskito.pengenalanpanahan">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/splash"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".splashscreen"
+            android:icon="@drawable/splash"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Menu Utama" />
+        <activity
+            android:name=".Pendahuluan"
+            android:label="Pendahuluan" />
+        <activity android:name=".Pengertian" />
+        <activity android:name=".Prestasi" />
+        <activity android:name=".Sejarah" />
+        <activity
+            android:name=".menuteknik"
+            android:label="Teknik Dasar"/>
+        <activity android:name=".stance" />
+        <activity android:name=".afterhold" />
+        <activity android:name=".aiming" />
+        <activity android:name=".anchoring" />
+        <activity android:name=".drawing" />
+        <activity android:name=".nocking" />
+        <activity android:name=".release" />
+        <activity android:name=".setup" />
+        <activity android:name=".tighten" />
+        <activity
+            android:name=".peralatan"
+            android:label="Peralatan Panahan"/>
+        <activity
+            android:name=".gambarperalatan"
+            android:label="Gambar Peralatan"/>
+        <activity android:name=".listTittle" />
+        <activity android:name=".detailDB" />
+        <activity
+            android:name=".inputnama"
+            android:label="Quis"/>
+        <activity android:name=".soalsoal" />
+        <activity android:name=".listdataDB" />
+        <activity android:name=".hasil" />
+        <activity
+            android:name=".latihan"
+            android:label="Latihan Panah"/>
+        <activity android:name=".club1"/>
+        <activity android:name=".club2"/>
+        <activity android:name=".club3">
+
+        </activity>
+    </application>
+
+</manifest>

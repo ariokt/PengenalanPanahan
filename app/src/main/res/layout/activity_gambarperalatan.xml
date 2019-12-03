@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:baselineAligned="true"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TableRow
+                android:stretchColumns="0,1"
+                android:id="@+id/tableRow1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_margin="20dp">
+
+                <ImageView
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:layout_marginLeft="120px"
+                    android:layout_gravity="start"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/arrow2" />
+
+                <ImageView
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/armguard2" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:stretchColumns="0,1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp">
+
+                <ImageView
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:layout_gravity="start"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="120px"
+                    android:src="@drawable/quiver2" />
+
+                <ImageView
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/bowsight2" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:stretchColumns="0,1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                >
+
+                <ImageView
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:layout_gravity="start"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="120px"
+                    android:src="@drawable/bowstand2" />
+
+                <ImageView
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/chestguard2" />
+
+            </TableRow>
+
+            <TableRow
+                android:stretchColumns="0,1"
+                android:id="@+id/tableRow4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp">
+
+                <ImageView
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:layout_gravity="start"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="120px"
+                    android:src="@drawable/fingertab2" />
+
+                <ImageView
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/puller2" />
+
+            </TableRow>
+
+            <TableRow
+                android:stretchColumns="0,1"
+                android:id="@+id/tableRow5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp">
+
+                <ImageView
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:layout_gravity="start"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="120px"
+                    android:src="@drawable/talibusur2" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+

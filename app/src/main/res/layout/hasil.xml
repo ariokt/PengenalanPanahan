@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+<ScrollView
+    android:layout_marginBottom="50dip" 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="#999999"
+	>
+<TableLayout android:id="@+id/TableLayout01" 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent" 
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="#fff">
+  
+<TextView
+android:id="@+id/txtMarquee"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text=""
+android:textSize="14sp"
+android:layout_x="3px"
+android:layout_y="4px"
+android:typeface="sans"
+android:textColor="#0000ff"
+android:background="#000000"
+android:singleLine="true"
+android:ellipsize="marquee"
+android:marqueeRepeatLimit="marquee_forever">
+</TextView>
+
+    <ImageView 
+   android:id="@+id/myGambar"
+   android:layout_centerHorizontal="true"
+   android:src="@drawable/pria"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   />
+
+    
+<TableRow android:id="@+id/TableRow00" android:layout_width="wrap_content" android:layout_height="wrap_content">	
+      <TextView android:text="Nama :" />
+      <TextView android:id="@+id/hnama" />
+</TableRow>    
+<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">	
+      <TextView android:text="Usia :"/>
+      <TextView android:id="@+id/husia" />
+</TableRow>    
+	<TableRow>
+  		<TextView android:text="Nilai :" />
+  		<TextView android:id="@+id/hNilai"
+  		/>
+  	</TableRow>
+ 	<TableRow>
+  		<TextView android:text="Catatan :" />
+  		<TextView android:id="@+id/hPilih"
+  		   	android:singleLine="false"
+  			android:gravity="top"
+  			android:lines="10"
+  			android:textSize="9dp"
+  			android:scrollHorizontally="true"
+  			android:maxLines="10"
+  			android:maxWidth="200sp" 
+		/>
+  	</TableRow>
+<TableRow android:id="@+id/TableRow02" android:layout_width="wrap_content" android:layout_height="wrap_content">	
+      <Button android:id="@+id/hSimpan" 
+  		  android:layout_width="fill_parent"
+  		  android:layout_height="wrap_content"
+  		  android:text="Simpan"
+  />
+  <Button android:id="@+id/hKembali" 
+  		  android:layout_width="fill_parent"
+  		  android:layout_height="wrap_content"
+  		  android:text="Kembali"
+  		  android:visibility="visible"
+  		/>
+</TableRow>    
+
+</TableLayout>
+</ScrollView>
+</RelativeLayout>

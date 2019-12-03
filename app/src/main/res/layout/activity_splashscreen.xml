@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splashscreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scaleType="fitStart"
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"
+        android:paddingTop="50dp"
+        android:background="@drawable/background"
+        android:src="@drawable/splash"
+        />
+
+    <TextView
+        android:text="Calm Brave Focus and Win!"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/splash"
+        android:textSize="30sp"
+        android:textColor="@color/colorAccent"
+        android:scaleType="center"
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"
+        android:paddingTop="300dp"
+        />
+
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="center"
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"
+        android:paddingTop="400dp"
+        />
+
+
+
+</android.support.constraint.ConstraintLayout>
